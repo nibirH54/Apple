@@ -1,0 +1,14 @@
+2021-09-19 13:57:05.739 [main][94494] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 13:57:24.437 [main][113192] DEBUG page_objects.NavigationBar - Click on to Bags Link In the Navigation Bar
+2021-09-19 13:57:26.695 [main][115450] DEBUG page_objects.NavigationBar - Click on Sign In Link to navigate to the sign in page
+2021-09-19 13:57:33.229 [main][121984] DEBUG page_objects.SignIn - Enter user name is : Nibirh54@gmail.com
+2021-09-19 13:57:35.750 [main][124505] DEBUG page_objects.SignIn - Enter password is : Appletest12345
+2021-09-19 13:57:36.351 [main][125106] DEBUG page_objects.SignIn - Clicked on Sign in Button
+2021-09-19 13:57:36.653 [main][125408] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-19 13:58:42.861 [main][191616] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 13:58:47.671 [main][196426] DEBUG page_objects.NavigationBar - Click on to Bags Link In the Navigation Bar
+2021-09-19 13:58:47.779 [main][196534] DEBUG page_objects.NavigationBar - Click on Sign In Link to navigate to the sign in page
+2021-09-19 13:58:50.185 [main][198940] DEBUG page_objects.SignIn - Enter user name is : Nibirh54@gmail.com
+2021-09-19 13:58:50.654 [main][199409] DEBUG page_objects.SignIn - Enter password is : Appletest44444
+2021-09-19 13:58:50.901 [main][199656] DEBUG page_objects.SignIn - Invalid Password message shown
+2021-09-19 13:58:50.902 [main][199657] INFO  step_definitions.Hooks - Close Chrome Browser

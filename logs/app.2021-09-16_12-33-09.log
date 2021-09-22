@@ -1,0 +1,7 @@
+2021-09-16 12:34:04.177 [main][60775] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-16 12:34:28.134 [main][84732] DEBUG page_objects.NavigationBar - Click on to Bags Link In the Navigation Bar
+2021-09-16 12:34:28.953 [main][85551] DEBUG page_objects.NavigationBar - Click on Sign In Link to navigate to the sign in page
+2021-09-16 12:34:33.157 [main][89755] DEBUG page_objects.SignIn - Enter user name is : Nibirh54@gmail.com
+2021-09-16 12:34:34.515 [main][91113] DEBUG page_objects.SignIn - Enter password is : Appletest12345
+2021-09-16 12:34:34.770 [main][91368] DEBUG page_objects.SignIn - Clicked on Sign in Button
+2021-09-16 12:34:34.954 [main][91552] INFO  step_definitions.Hooks - close ChromeBrowser

@@ -1,0 +1,4 @@
+2021-09-13 13:29:30.688 [main][9598] INFO  step_definitions.LoginSteps - User is in the login page
+2021-09-13 13:29:30.758 [main][9668] INFO  step_definitions.LoginSteps - User has entered credentials
+2021-09-13 13:29:30.759 [main][9669] INFO  step_definitions.LoginSteps - User clicked on login button
+2021-09-13 13:29:30.760 [main][9670] INFO  step_definitions.LoginSteps - User is in the home page
