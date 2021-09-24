@@ -10,8 +10,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class AppleWatchSteps {
-    private static final By ClickWatch = By.xpath("//*[@id='ac-globalnav']/div/ul[2]/li[6]/a");
-    private static final By ClickShopWatch = By.xpath("//*[@id='chapternav']/div/ul/li[14]/a/span");
+    private static final By ClickWatch = By.xpath("//a[@class='ac-gn-link ac-gn-link-watch']");
+    private static final By ClickShopWatch = By.xpath("//a[@href='/us/shop/goto/buy_watch']//figure[1]");
 
     WebDriver driver = Hooks.driver;
     private static final Logger LOGGER = LogManager.getLogger(AppleWatchSteps.class);
