@@ -10,8 +10,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class IpadSteps {
-    private static final By ClickIpad = By.xpath("//*[@id='ac-globalnav']/div/ul[2]/li[4]/a");
-    private static final By ClickShopIpad = By.xpath("//*[@id='chapternav']/div/ul/li[11]/a/span");
+    private static final By ClickIpad = By.xpath("(//li[contains(@class,'ac-gn-item ac-gn-item-menu')]//a)[3]");
+    private static final By ClickShopIpad = By.xpath("//a[@href='/us/shop/goto/buy_ipad']//figure[1]");
 
 
     WebDriver driver = Hooks.driver;
