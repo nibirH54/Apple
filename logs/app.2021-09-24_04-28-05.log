@@ -1,0 +1,18 @@
+2021-09-24 16:28:08.303 [main][3489] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-24 16:28:13.116 [main][8302] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-24 16:28:19.311 [main][14497] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-24 16:28:19.814 [main][15000] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-24 16:28:19.815 [main][15001] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-24 16:28:19.815 [main][15001] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-24 16:28:22.353 [main][17539] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-24 16:28:28.622 [main][23808] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-24 16:28:34.347 [main][29533] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-24 16:28:34.797 [main][29983] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-24 16:28:34.797 [main][29983] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-24 16:28:34.798 [main][29984] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-24 16:28:37.315 [main][32501] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-24 16:28:42.001 [main][37187] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-24 16:28:48.340 [main][43526] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-24 16:28:48.793 [main][43979] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-24 16:28:48.794 [main][43980] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-24 16:28:48.794 [main][43980] INFO  step_definitions.Hooks - Close Chrome Browser

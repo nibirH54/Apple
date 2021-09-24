@@ -1,0 +1,11 @@
+2021-09-24 15:24:42.743 [main][3671] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-24 15:24:48.202 [main][9130] INFO  step_definitions.LoginSteps - User is on apple home page
+2021-09-24 15:24:48.208 [main][9136] DEBUG page_objects.NavigationBar - Click on to Bags Link In the Navigation Bar
+2021-09-24 15:24:48.305 [main][9233] DEBUG page_objects.NavigationBar - Click on Sign In Link to navigate to the sign in page
+2021-09-24 15:24:57.042 [main][17970] INFO  step_definitions.LoginSteps - User navigates to apple sign in page
+2021-09-24 15:24:57.046 [main][17974] DEBUG page_objects.SignIn - Enter user name is : Nibirh54@gmail.com
+2021-09-24 15:24:57.224 [main][18152] DEBUG page_objects.SignIn - Enter password is : Appletest12345
+2021-09-24 15:24:57.429 [main][18357] INFO  step_definitions.LoginSteps - User clicks on sign in after entering userid and password
+2021-09-24 15:24:57.430 [main][18358] DEBUG page_objects.SignIn - Clicked on Sign in Button
+2021-09-24 15:24:57.528 [main][18456] INFO  step_definitions.LoginSteps - User logs into apple account
+2021-09-24 15:24:57.528 [main][18456] INFO  step_definitions.Hooks - Close Chrome Browser

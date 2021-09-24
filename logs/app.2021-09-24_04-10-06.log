@@ -1,0 +1,6 @@
+2021-09-24 16:10:09.798 [main][4004] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-24 16:10:14.920 [main][9126] INFO  step_definitions.IpadSteps - User is at Apple.com home page
+2021-09-24 16:10:22.868 [main][17074] INFO  step_definitions.IpadSteps - User clicks on ipad option in menu bar
+2021-09-24 16:10:29.291 [main][23497] INFO  step_definitions.IpadSteps - User clicks on shop ipad option to navigate to ipad page
+2021-09-24 16:10:29.292 [main][23498] INFO  step_definitions.IpadSteps - User navigates to ipad page to view all available ipad models to buy
+2021-09-24 16:10:29.292 [main][23498] INFO  step_definitions.Hooks - Close Chrome Browser

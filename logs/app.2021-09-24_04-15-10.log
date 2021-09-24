@@ -1,0 +1,6 @@
+2021-09-24 16:15:12.786 [main][3739] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-24 16:15:17.824 [main][8777] INFO  step_definitions.AppleWatchSteps - User is at Apple.com home page
+2021-09-24 16:15:27.122 [main][18075] INFO  step_definitions.AppleWatchSteps - User clicks on watch option
+2021-09-24 16:15:30.656 [main][21609] INFO  step_definitions.AppleWatchSteps - User clicks on shop watch option to navigate to the apple watch page
+2021-09-24 16:15:30.656 [main][21609] INFO  step_definitions.AppleWatchSteps - User lands on the apple watch page to view all apple watch models available to buy
+2021-09-24 16:15:30.657 [main][21610] INFO  step_definitions.Hooks - Close Chrome Browser
