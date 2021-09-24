@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 public class NavigationBar {
     private static final Logger LOGGER = LogManager.getLogger(NavigationBar.class);
     private final By BagsLink = By.xpath("//*[@id='ac-gn-bag']");
-    private final By SignInLink = By.xpath("//*[@id='ac-gn-bagview-content']/nav/ul/li[5]/a");
+    private final By SignInLink = By.xpath("//a[@data-analytics-title='signIn']");
 
     public WebDriver driver;
 
