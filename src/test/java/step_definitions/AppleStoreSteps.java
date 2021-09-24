@@ -12,9 +12,8 @@ import org.openqa.selenium.WebDriver;
 
 public class AppleStoreSteps {
 
-    private static final By StoreButton = By.xpath("//*[@id='ac-globalnav']/div/ul[2]/li[2]/a");
-    private static final By ClickMacLink = By.xpath("//*[@id='shelf-1_section']/div/div[1]/div/div/div[1]/div/div/div/div[2]/div/a");
-
+    private static final By StoreButton = By.xpath("//li[contains(@class,'ac-gn-item ac-gn-item-menu')]//a");
+    private static final By ClickMacLink = By.xpath("//a[@href='/shop/buy-mac']");
     WebDriver driver = Hooks.driver;
     private static final Logger LOGGER = LogManager.getLogger(AppleStoreSteps.class);
 
