@@ -10,8 +10,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class IphoneSteps {
-    private static final By IphoneButton = By.xpath("//*[@id='ac-globalnav']/div/ul[2]/li[5]/a");
-    private static final By ShopIphoneButton = By.xpath("//*[@id='chapternav']/div/ul/li[12]/a/span");
+    private static final By IphoneButton = By.xpath("//a[@data-analytics-title='iphone']");
+    private static final By ShopIphoneButton = By.xpath("//a[@href='/us/shop/goto/buy_iphone']//figure[1]");
 
 
 
