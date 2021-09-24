@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Iphone13Steps {
     private static final By ClickBagsLink = By.xpath("//*[@id='ac-gn-bag']");
-    private static final By ClickSignInLink = By.xpath("//*[@id='ac-gn-bagview-content']/nav/ul/li[5]/a");
+    private static final By ClickSignInLink = By.xpath("//a[@data-analytics-title='signIn']");
     private static final By TypeUserId = By.id("signIn.customerLogin.appleId");
     private static final By TypePassword = By.id("signIn.customerLogin.password");
     private static final By ClickSignInButton = By.xpath("//*[@id='signin-submit-button']");
