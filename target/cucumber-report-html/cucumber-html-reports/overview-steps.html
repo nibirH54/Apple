@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberJava</td>
+        <td>1</td>
+      <td>24 Sep 2021, 00:53</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">step_definitions.AppleStoreSteps.clickOnFindNewDeals()</td>
+              <td>1</td>
+              <td class="duration" data-value="12367708000">12.367</td>
+              <td class="duration" data-value="12367708000">12.367</td>
+              <td class="duration" data-value="12367708000">12.367</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleStoreSteps.clickOnStoreOption()</td>
+              <td>1</td>
+              <td class="duration" data-value="10010135800">10.010</td>
+              <td class="duration" data-value="10010135800">10.010</td>
+              <td class="duration" data-value="10010135800">10.010</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleStoreSteps.landsOnRetailPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleStoreSteps.userLandsAtApplePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5202427400">5.202</td>
+              <td class="duration" data-value="5202427400">5.202</td>
+              <td class="duration" data-value="5202427400">5.202</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleWatchSteps.clickOnShopWatch()</td>
+              <td>1</td>
+              <td class="duration" data-value="2751541900">2.751</td>
+              <td class="duration" data-value="2751541900">2.751</td>
+              <td class="duration" data-value="2751541900">2.751</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleWatchSteps.clickOnWatch()</td>
+              <td>1</td>
+              <td class="duration" data-value="12047168500">12.047</td>
+              <td class="duration" data-value="12047168500">12.047</td>
+              <td class="duration" data-value="12047168500">12.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleWatchSteps.navigateToAppleWatchPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.AppleWatchSteps.userLandsOnAppleHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="4807345600">4.807</td>
+              <td class="duration" data-value="4807345600">4.807</td>
+              <td class="duration" data-value="4807345600">4.807</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Hooks.closeBrowser()</td>
+              <td>12</td>
+              <td class="duration" data-value="688272441">0.688</td>
+              <td class="duration" data-value="688272441">0.866</td>
+              <td class="duration" data-value="8259269300">8.259</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Hooks.openBrowser()</td>
+              <td>12</td>
+              <td class="duration" data-value="2685084708">2.685</td>
+              <td class="duration" data-value="2685084708">5.962</td>
+              <td class="duration" data-value="32221016500">32.221</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IpadSteps.clickOnIpadOption()</td>
+              <td>1</td>
+              <td class="duration" data-value="8600457600">8.600</td>
+              <td class="duration" data-value="8600457600">8.600</td>
+              <td class="duration" data-value="8600457600">8.600</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IpadSteps.clickOnShopIpad()</td>
+              <td>1</td>
+              <td class="duration" data-value="6512453400">6.512</td>
+              <td class="duration" data-value="6512453400">6.512</td>
+              <td class="duration" data-value="6512453400">6.512</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IpadSteps.navigateToIpadPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IpadSteps.userGoesToAppleHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5036126600">5.036</td>
+              <td class="duration" data-value="5036126600">5.036</td>
+              <td class="duration" data-value="5036126600">5.036</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Iphone13Steps.clickOnCurrentPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="8679238700">8.679</td>
+              <td class="duration" data-value="8679238700">8.679</td>
+              <td class="duration" data-value="8679238700">8.679</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Iphone13Steps.clickOnSignIn()</td>
+              <td>1</td>
+              <td class="duration" data-value="915983200">0.915</td>
+              <td class="duration" data-value="915983200">0.915</td>
+              <td class="duration" data-value="915983200">0.915</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Iphone13Steps.clickOnSignOut()</td>
+              <td>1</td>
+              <td class="duration" data-value="3496400">0.003</td>
+              <td class="duration" data-value="3496400">0.003</td>
+              <td class="duration" data-value="3496400">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Iphone13Steps.clicksOnBagsLink()</td>
+              <td>1</td>
+              <td class="duration" data-value="10011375800">10.011</td>
+              <td class="duration" data-value="10011375800">10.011</td>
+              <td class="duration" data-value="10011375800">10.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Iphone13Steps.userEntersAppleWebsite()</td>
+              <td>1</td>
+              <td class="duration" data-value="4943117700">4.943</td>
+              <td class="duration" data-value="4943117700">4.943</td>
+              <td class="duration" data-value="4943117700">4.943</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IphoneSteps.browseToAppleHomepage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5394213100">5.394</td>
+              <td class="duration" data-value="5394213100">5.394</td>
+              <td class="duration" data-value="5394213100">5.394</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IphoneSteps.clickOnIphoneOption()</td>
+              <td>1</td>
+              <td class="duration" data-value="12043572700">12.043</td>
+              <td class="duration" data-value="12043572700">12.043</td>
+              <td class="duration" data-value="12043572700">12.043</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IphoneSteps.clickOnShopIphoneOption()</td>
+              <td>1</td>
+              <td class="duration" data-value="10659587100">10.659</td>
+              <td class="duration" data-value="10659587100">10.659</td>
+              <td class="duration" data-value="10659587100">10.659</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.IphoneSteps.navigateToIphonePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.clicksSignInButtonUponEnteringTheData(io.cucumber.datatable.DataTable)</td>
+              <td>2</td>
+              <td class="duration" data-value="469141350">0.469</td>
+              <td class="duration" data-value="469141350">0.483</td>
+              <td class="duration" data-value="938282700">0.938</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.navigateToAppleAccount()</td>
+              <td>1</td>
+              <td class="duration" data-value="133842500">0.133</td>
+              <td class="duration" data-value="133842500">0.133</td>
+              <td class="duration" data-value="133842500">0.133</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.navigateToAppleHomePage()</td>
+              <td>2</td>
+              <td class="duration" data-value="5527925150">5.527</td>
+              <td class="duration" data-value="5527925150">5.679</td>
+              <td class="duration" data-value="11055850300">11.055</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.navigateToSignInPage()</td>
+              <td>2</td>
+              <td class="duration" data-value="9918281750">9.918</td>
+              <td class="duration" data-value="9918281750">9.998</td>
+              <td class="duration" data-value="19836563500">19.836</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.validateUserIsFailedToLogin()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MacbookProSteps.userClicksOnSearchButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="96743400">0.096</td>
+              <td class="duration" data-value="96743400">0.096</td>
+              <td class="duration" data-value="96743400">0.096</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MacbookProSteps.userNavigateToAppleHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5008448900">5.008</td>
+              <td class="duration" data-value="5008448900">5.008</td>
+              <td class="duration" data-value="5008448900">5.008</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MacbookProSteps.userSearchResult()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MacbookProSteps.userTypesToSearch()</td>
+              <td>1</td>
+              <td class="duration" data-value="147790800">0.147</td>
+              <td class="duration" data-value="147790800">0.147</td>
+              <td class="duration" data-value="147790800">0.147</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="2082101025">2.082</td>
+              <td class="duration" data-value="2082101025">3.631</td>
+              <td class="duration" data-value="8328404100">8.328</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MultipleLoginSteps.landToSignInPage()</td>
+              <td>4</td>
+              <td class="duration" data-value="9512812100">9.512</td>
+              <td class="duration" data-value="9512812100">9.841</td>
+              <td class="duration" data-value="38051248400">38.051</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MultipleLoginSteps.loginToAppleAccount()</td>
+              <td>4</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()</td>
+              <td>4</td>
+              <td class="duration" data-value="4962429625">4.962</td>
+              <td class="duration" data-value="4962429625">5.152</td>
+              <td class="duration" data-value="19849718500">19.849</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>36</td>
+            <td>73</td>
+            <td class="duration">3.615</td>
+            <td class="duration">38.051</td>
+            <td class="duration">4:23.913</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

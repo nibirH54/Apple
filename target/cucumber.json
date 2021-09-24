@@ -1,0 +1,1098 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T04:49:29.576Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5962389700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check new iphone 13 features",
+        "description": "",
+        "id": "check-new-apple-iphone-13-features-from-apple-account;check-new-iphone-13-features",
+        "after": [
+          {
+            "result": {
+              "duration": 866414100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4943117700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user enters on apple website",
+            "match": {
+              "location": "step_definitions.Iphone13Steps.userEntersAppleWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10011375800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on the bags link to sign in",
+            "match": {
+              "location": "step_definitions.Iphone13Steps.clicksOnBagsLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 915983200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on sign in upon entering the valid credentials",
+            "match": {
+              "location": "step_definitions.Iphone13Steps.clickOnSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8679238700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the page they are in",
+            "match": {
+              "location": "step_definitions.Iphone13Steps.clickOnCurrentPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3496400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on new iphone 13 feature page",
+            "match": {
+              "location": "step_definitions.Iphone13Steps.clickOnSignOut()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check new apple iphone 13 features from apple account",
+    "description": "",
+    "id": "check-new-apple-iphone-13-features-from-apple-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/iphone13.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T04:50:01.099Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4882230200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check login is successful with valid credentials for single user",
+        "description": "",
+        "id": "test-login-functionalities-for-apple;check-login-is-successful-with-valid-credentials-for-single-user",
+        "after": [
+          {
+            "result": {
+              "duration": 699140800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5679813900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user is on the apple home page",
+            "match": {
+              "location": "step_definitions.LoginSteps.navigateToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9838070500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to apple sign in page",
+            "match": {
+              "location": "step_definitions.LoginSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 455061300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on sign in upon entering the data",
+            "match": {
+              "location": "step_definitions.LoginSteps.clicksSignInButtonUponEnteringTheData(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userid",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Nibirh54@gmail.com",
+                  "Appletest12345"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133842500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logs into apple account",
+            "match": {
+              "location": "step_definitions.LoginSteps.navigateToAppleAccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:50:22.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3691232000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Check login is successful with invalid credentials",
+        "description": "",
+        "id": "test-login-functionalities-for-apple;check-login-is-successful-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 663707800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5376036400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a user is on the apple home page",
+            "match": {
+              "location": "step_definitions.LoginSteps.navigateToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9998493000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user navigate to apple sign in page",
+            "match": {
+              "location": "step_definitions.LoginSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483221400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on sign in upon entering the data",
+            "match": {
+              "location": "step_definitions.LoginSteps.clicksSignInButtonUponEnteringTheData(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userid",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Nibirh54@gmail.com",
+                  "Appletest44444"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is failed to login",
+            "match": {
+              "location": "step_definitions.LoginSteps.validateUserIsFailedToLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative_test"
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionalities for Apple",
+    "description": "",
+    "id": "test-login-functionalities-for-apple",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T04:50:43.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1917833700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check search option for a specific product",
+        "description": "",
+        "id": "test-search-functionality-in-apple-home-page;check-search-option-for-a-specific-product",
+        "after": [
+          {
+            "result": {
+              "duration": 649510000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5008448900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user navigate to the apple home page",
+            "match": {
+              "location": "step_definitions.MacbookProSteps.userNavigateToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96743400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "step_definitions.MacbookProSteps.userClicksOnSearchButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147790800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user types a specific product to search",
+            "match": {
+              "location": "step_definitions.MacbookProSteps.userTypesToSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user lands on that products page",
+            "match": {
+              "location": "step_definitions.MacbookProSteps.userSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:50:50.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1915771900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Check functionality to navigate to the mac page",
+        "description": "",
+        "id": "test-search-functionality-in-apple-home-page;check-functionality-to-navigate-to-the-mac-page",
+        "after": [
+          {
+            "result": {
+              "duration": 671880800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5202427400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a user is at apple page",
+            "match": {
+              "location": "step_definitions.AppleStoreSteps.userLandsAtApplePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10010135800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on store option in menu",
+            "match": {
+              "location": "step_definitions.AppleStoreSteps.clickOnStoreOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user lands on retail page",
+            "match": {
+              "location": "step_definitions.AppleStoreSteps.landsOnRetailPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12367708000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Mac option to navigate to the mac page",
+            "match": {
+              "location": "step_definitions.AppleStoreSteps.clickOnFindNewDeals()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:51:21.021Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2001515100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check functionality to navigate to the shop iphone page",
+        "description": "",
+        "id": "test-search-functionality-in-apple-home-page;check-functionality-to-navigate-to-the-shop-iphone-page",
+        "after": [
+          {
+            "result": {
+              "duration": 660209400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5394213100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a user browses to the apple home page",
+            "match": {
+              "location": "step_definitions.IphoneSteps.browseToAppleHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12043572700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on iphone option in the menu bar",
+            "match": {
+              "location": "step_definitions.IphoneSteps.clickOnIphoneOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10659587100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on shop iphone option",
+            "match": {
+              "location": "step_definitions.IphoneSteps.clickOnShopIphoneOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is able to view all available iphone to buy",
+            "match": {
+              "location": "step_definitions.IphoneSteps.navigateToIphonePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:51:51.789Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1927724200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Check functionality to navigate to the shop ipad page",
+        "description": "",
+        "id": "test-search-functionality-in-apple-home-page;check-functionality-to-navigate-to-the-shop-ipad-page",
+        "after": [
+          {
+            "result": {
+              "duration": 684169100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5036126600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a user goes to the apple home page",
+            "match": {
+              "location": "step_definitions.IpadSteps.userGoesToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8600457600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on ipad option in the menu bar",
+            "match": {
+              "location": "step_definitions.IpadSteps.clickOnIpadOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6512453400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on shop ipad option",
+            "match": {
+              "location": "step_definitions.IpadSteps.clickOnShopIpad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is able to view all available ipad to buy",
+            "match": {
+              "location": "step_definitions.IpadSteps.navigateToIpadPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:52:14.550Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2054663900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Check functionality to navigate to the shop apple watch page",
+        "description": "",
+        "id": "test-search-functionality-in-apple-home-page;check-functionality-to-navigate-to-the-shop-apple-watch-page",
+        "after": [
+          {
+            "result": {
+              "duration": 663748100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4807345600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a user lands on the apple home page",
+            "match": {
+              "location": "step_definitions.AppleWatchSteps.userLandsOnAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12047168500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on watch option in the menu bar",
+            "match": {
+              "location": "step_definitions.AppleWatchSteps.clickOnWatch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2751541900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on shop watch option",
+            "match": {
+              "location": "step_definitions.AppleWatchSteps.clickOnShopWatch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user is able to view all available apple watch to buy",
+            "match": {
+              "location": "step_definitions.AppleWatchSteps.navigateToAppleWatchPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test search functionality in Apple home page",
+    "description": "",
+    "id": "test-search-functionality-in-apple-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/macbookpro.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T04:52:36.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1967259600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check login is successful with valid userid and password",
+        "description": "",
+        "id": "test-login-for-apple-website;check-login-is-successful-with-valid-userid-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 665635800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4922166700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user browses to the apple page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9627104100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user lands to apple sign in page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.landToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3531593700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on sign in upon entering userid \"nibirh54@gmail.com\" and password \"Appletest12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nibirh54@gmail.com",
+                  "offset": 45
+                },
+                {
+                  "val": "Appletest12345",
+                  "offset": 79
+                }
+              ],
+              "location": "step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user signs in to the apple account",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.loginToAppleAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:52:57.628Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1935225400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Check login is successful with valid userid and password for multiple users",
+        "description": "",
+        "id": "test-login-for-apple-website;check-login-is-successful-with-valid-userid-and-password-for-multiple-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 664733800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4791646800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a user browses to the apple page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8743024000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user lands to apple sign in page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.landToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3631430500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on sign in upon entering userid \"Nibirh54@gmail.com\" and password \"Appletest12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nibirh54@gmail.com",
+                  "offset": 45
+                },
+                {
+                  "val": "Appletest12345",
+                  "offset": 79
+                }
+              ],
+              "location": "step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user signs in to the apple account",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.loginToAppleAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:53:17.394Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1942214400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Check login is successful with valid userid and password for multiple users",
+        "description": "",
+        "id": "test-login-for-apple-website;check-login-is-successful-with-valid-userid-and-password-for-multiple-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 664814700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4983401400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a user browses to the apple page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9841595400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user lands to apple sign in page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.landToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642431600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on sign in upon entering userid \"Nibirh91@gmail.com\" and password \"Appletest54321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nibirh91@gmail.com",
+                  "offset": 45
+                },
+                {
+                  "val": "Appletest54321",
+                  "offset": 79
+                }
+              ],
+              "location": "step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user signs in to the apple account",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.loginToAppleAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-24T04:53:35.469Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2022956400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Check login is successful with valid userid and password for multiple users",
+        "description": "",
+        "id": "test-login-for-apple-website;check-login-is-successful-with-valid-userid-and-password-for-multiple-users;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 705304900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5152503600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a user browses to the apple page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9839524900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user lands to apple sign in page",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.landToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522948300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on sign in upon entering userid \"Nibirwasif@yahoo.com\" and password \"Appletest12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nibirwasif@yahoo.com",
+                  "offset": 45
+                },
+                {
+                  "val": "Appletest12345",
+                  "offset": 81
+                }
+              ],
+              "location": "step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user signs in to the apple account",
+            "match": {
+              "location": "step_definitions.MultipleLoginSteps.loginToAppleAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login for Apple website",
+    "description": "",
+    "id": "test-login-for-apple-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/multiplelogin.feature",
+    "tags": []
+  }
+]
