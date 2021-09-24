@@ -1,0 +1,14 @@
+2021-09-22 16:49:30.894 [main][4129] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-22 16:49:35.781 [main][9016] INFO  step_definitions.AppleStoreSteps - User is is Apple.com home page
+2021-09-22 16:49:45.248 [main][18483] INFO  step_definitions.AppleStoreSteps - User clicks on store menu to find nearby stores
+2021-09-22 16:49:45.390 [main][18625] INFO  step_definitions.AppleStoreSteps - User clicks on find stores near me option
+2021-09-22 16:50:00.465 [main][33700] ERROR command_providers.ElementActions - Element Exception for the locator By.linkText: storelist and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"storelist"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c3815e7e46a7f73b270b4da7edb685
+*** Element info: {Using=link text, value=storelist}
+2021-09-22 16:50:00.480 [main][33715] INFO  step_definitions.Hooks - Close Chrome Browser

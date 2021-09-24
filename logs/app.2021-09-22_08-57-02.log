@@ -1,0 +1,6 @@
+2021-09-22 20:57:05.685 [main][3750] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-22 20:57:10.847 [main][8912] INFO  step_definitions.IphoneSteps - User is at Apple.com home page
+2021-09-22 20:57:20.326 [main][18391] INFO  step_definitions.IphoneSteps - User clicks on Iphone option in menu bar
+2021-09-22 20:57:24.915 [main][22980] INFO  step_definitions.IphoneSteps - User clicks on shop iphone option to view all available iphone to buy
+2021-09-22 20:57:24.915 [main][22980] INFO  step_definitions.IphoneSteps - User is able to view all available iphone models to buy
+2021-09-22 20:57:24.916 [main][22981] INFO  step_definitions.Hooks - Close Chrome Browser

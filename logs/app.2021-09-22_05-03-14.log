@@ -1,0 +1,14 @@
+2021-09-22 17:03:17.500 [main][4032] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-22 17:03:23.165 [main][9697] INFO  step_definitions.AppleStoreSteps - User is is Apple.com home page
+2021-09-22 17:03:33.489 [main][20021] INFO  step_definitions.AppleStoreSteps - User clicks on store menu to find nearby stores
+2021-09-22 17:03:33.623 [main][20155] INFO  step_definitions.AppleStoreSteps - User clicks on find stores near me option
+2021-09-22 17:03:48.737 [main][35269] ERROR command_providers.ElementActions - Element Exception for the locator By.linkText: Complete store list and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Complete store list"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f58b8acad7bca851d373729b5f1deffd
+*** Element info: {Using=link text, value=Complete store list}
+2021-09-22 17:03:48.745 [main][35277] INFO  step_definitions.Hooks - Close Chrome Browser

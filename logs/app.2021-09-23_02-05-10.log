@@ -1,0 +1,15 @@
+2021-09-23 02:05:13.001 [main][3804] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 02:05:17.959 [main][8762] INFO  step_definitions.Iphone13Steps - User lands on the Apple home page
+2021-09-23 02:05:27.606 [main][18409] INFO  step_definitions.Iphone13Steps - User clicks on bags link then sign in link to navigate to sign in page
+2021-09-23 02:05:31.177 [main][21980] INFO  step_definitions.Iphone13Steps - User clicks on sign in button upon entering the valid credentials
+2021-09-23 02:05:34.086 [main][24889] INFO  step_definitions.Iphone13Steps - User clicks on bags link to sign out from the account
+2021-09-23 02:05:49.141 [main][39944] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@data-analytics-title='signOut'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-analytics-title='signOut']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60031}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2338bec437c105ea37b83de8adbbfef5
+*** Element info: {Using=xpath, value=//a[@data-analytics-title='signOut']}
+2021-09-23 02:05:49.149 [main][39952] INFO  step_definitions.Hooks - Close Chrome Browser

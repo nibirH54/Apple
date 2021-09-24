@@ -1,0 +1,15 @@
+2021-09-23 02:17:21.382 [main][3773] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 02:17:26.099 [main][8490] INFO  step_definitions.Iphone13Steps - User lands on the Apple home page
+2021-09-23 02:17:35.734 [main][18125] INFO  step_definitions.Iphone13Steps - User clicks on bags link then sign in link to navigate to sign in page
+2021-09-23 02:17:39.136 [main][21527] INFO  step_definitions.Iphone13Steps - User clicks on sign in button upon entering the valid credentials
+2021-09-23 02:17:42.135 [main][24526] INFO  step_definitions.Iphone13Steps - User clicks on bags link to sign out from the account
+2021-09-23 02:17:57.219 [main][39610] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@data-evar1='[pageName] |  | bag overlay |  | signOut'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-evar1='[pageName] |  | bag overlay |  | signOut']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1d396d037446e65ca577f7a4be6f0a
+*** Element info: {Using=xpath, value=//a[@data-evar1='[pageName] |  | bag overlay |  | signOut']}
+2021-09-23 02:17:57.227 [main][39618] INFO  step_definitions.Hooks - Close Chrome Browser

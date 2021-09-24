@@ -1,0 +1,15 @@
+2021-09-23 02:13:43.944 [main][3832] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 02:13:48.788 [main][8676] INFO  step_definitions.Iphone13Steps - User lands on the Apple home page
+2021-09-23 02:13:58.815 [main][18703] INFO  step_definitions.Iphone13Steps - User clicks on bags link then sign in link to navigate to sign in page
+2021-09-23 02:13:59.393 [main][19281] INFO  step_definitions.Iphone13Steps - User clicks on sign in button upon entering the valid credentials
+2021-09-23 02:14:05.246 [main][25134] INFO  step_definitions.Iphone13Steps - User clicks on bags link to sign out from the account
+2021-09-23 02:14:20.300 [main][40188] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: /html/body/nav/div/aside[2]/div[2]/nav/ul/li[5]/a and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/nav/div/aside[2]/div[2]/nav/ul/li[5]/a"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 413705e64cede5e5a8debaf4b1c96daf
+*** Element info: {Using=xpath, value=/html/body/nav/div/aside[2]/div[2]/nav/ul/li[5]/a}
+2021-09-23 02:14:20.308 [main][40196] INFO  step_definitions.Hooks - Close Chrome Browser

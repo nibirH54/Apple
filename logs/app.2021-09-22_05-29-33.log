@@ -1,0 +1,14 @@
+2021-09-22 17:29:35.880 [main][3857] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-22 17:29:40.816 [main][8793] INFO  step_definitions.AppleStoreSteps - User is is Apple.com home page
+2021-09-22 17:29:51.230 [main][19207] INFO  step_definitions.AppleStoreSteps - User clicks on store menu to find nearby stores
+2021-09-22 17:29:51.238 [main][19215] INFO  step_definitions.AppleStoreSteps - User is at the retail page
+2021-09-22 17:30:06.293 [main][34270] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //*[@id='8e88a5e0-1bea-11ec-9660-ff6f82dc03fa-gallery-item-0']/div/div/a and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='8e88a5e0-1bea-11ec-9660-ff6f82dc03fa-gallery-item-0']/div/div/a"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7cc8d1ae2da66f998d39ca4090cd0c4
+*** Element info: {Using=xpath, value=//*[@id='8e88a5e0-1bea-11ec-9660-ff6f82dc03fa-gallery-item-0']/div/div/a}
+2021-09-22 17:30:06.301 [main][34278] INFO  step_definitions.Hooks - Close Chrome Browser

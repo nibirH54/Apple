@@ -1,0 +1,14 @@
+2021-09-22 16:52:35.956 [main][4232] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-22 16:52:40.875 [main][9151] INFO  step_definitions.AppleStoreSteps - User is is Apple.com home page
+2021-09-22 16:52:50.815 [main][19091] INFO  step_definitions.AppleStoreSteps - User clicks on store menu to find nearby stores
+2021-09-22 16:52:50.932 [main][19208] INFO  step_definitions.AppleStoreSteps - User clicks on find stores near me option
+2021-09-22 16:53:06.037 [main][34313] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: /html/body/div[3]/div/main/section[1]/div[1]/div/div/div[3]/a and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div/main/section[1]/div[1]/div/div/div[3]/a"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b788c189ec305105c6e551f656e74
+*** Element info: {Using=xpath, value=/html/body/div[3]/div/main/section[1]/div[1]/div/div/div[3]/a}
+2021-09-22 16:53:06.046 [main][34322] INFO  step_definitions.Hooks - Close Chrome Browser

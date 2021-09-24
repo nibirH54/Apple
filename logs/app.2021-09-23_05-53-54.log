@@ -1,0 +1,83 @@
+2021-09-23 17:54:00.716 [main][7376] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:54:06.105 [main][12765] INFO  step_definitions.Iphone13Steps - User lands on the Apple home page
+2021-09-23 17:54:14.859 [main][21519] INFO  step_definitions.Iphone13Steps - User clicks on bags link then sign in link to navigate to sign in page
+2021-09-23 17:54:15.445 [main][22105] INFO  step_definitions.Iphone13Steps - User clicks on sign in button upon entering the valid credentials
+2021-09-23 17:54:24.216 [main][30876] INFO  step_definitions.Iphone13Steps - User clicks on current page to land on new iphone 13 feature page
+2021-09-23 17:54:24.219 [main][30879] INFO  step_definitions.Iphone13Steps - User is on the new iphone 13 feature page
+2021-09-23 17:54:24.220 [main][30880] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:54:26.999 [main][33659] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:54:31.961 [main][38621] INFO  step_definitions.LoginSteps - User is on apple home page
+2021-09-23 17:54:31.961 [main][38621] DEBUG page_objects.NavigationBar - Click on to Bags Link In the Navigation Bar
+2021-09-23 17:54:32.055 [main][38715] DEBUG page_objects.NavigationBar - Click on Sign In Link to navigate to the sign in page
+2021-09-23 17:54:40.547 [main][47207] INFO  step_definitions.LoginSteps - User navigates to apple sign in page
+2021-09-23 17:54:40.555 [main][47215] DEBUG page_objects.SignIn - Enter user name is : Nibirh54@gmail.com
+2021-09-23 17:54:43.756 [main][50416] DEBUG page_objects.SignIn - Enter password is : Appletest12345
+2021-09-23 17:54:43.966 [main][50626] INFO  step_definitions.LoginSteps - User clicks on sign in after entering userid and password
+2021-09-23 17:54:43.966 [main][50626] DEBUG page_objects.SignIn - Clicked on Sign in Button
+2021-09-23 17:54:44.065 [main][50725] INFO  step_definitions.LoginSteps - User logs into apple account
+2021-09-23 17:54:44.065 [main][50725] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:54:46.656 [main][53316] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:54:51.642 [main][58302] INFO  step_definitions.LoginSteps - User is on apple home page
+2021-09-23 17:54:51.642 [main][58302] DEBUG page_objects.NavigationBar - Click on to Bags Link In the Navigation Bar
+2021-09-23 17:54:51.730 [main][58390] DEBUG page_objects.NavigationBar - Click on Sign In Link to navigate to the sign in page
+2021-09-23 17:55:01.465 [main][68125] INFO  step_definitions.LoginSteps - User navigates to apple sign in page
+2021-09-23 17:55:01.467 [main][68127] DEBUG page_objects.SignIn - Enter user name is : Nibirh54@gmail.com
+2021-09-23 17:55:01.699 [main][68359] DEBUG page_objects.SignIn - Enter password is : Appletest44444
+2021-09-23 17:55:01.893 [main][68553] INFO  step_definitions.LoginSteps - User clicks on sign in after entering userid and password
+2021-09-23 17:55:01.896 [main][68556] DEBUG page_objects.SignIn - Invalid Password message shown
+2021-09-23 17:55:01.896 [main][68556] INFO  step_definitions.LoginSteps - User is failed to log in for using invalid credentials
+2021-09-23 17:55:01.896 [main][68556] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:55:04.473 [main][71133] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:55:09.778 [main][76438] INFO  step_definitions.MacbookProSteps - User navigates to the apple home page
+2021-09-23 17:55:09.880 [main][76540] INFO  step_definitions.MacbookProSteps - User clicks search button
+2021-09-23 17:55:10.017 [main][76677] INFO  step_definitions.MacbookProSteps - User Types in search button
+2021-09-23 17:55:10.017 [main][76677] INFO  step_definitions.MacbookProSteps - User lands on the Specific page he searched for
+2021-09-23 17:55:10.017 [main][76677] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:55:12.626 [main][79286] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:55:18.196 [main][84856] INFO  step_definitions.AppleStoreSteps - User is on Apple.com home page
+2021-09-23 17:55:27.638 [main][94298] INFO  step_definitions.AppleStoreSteps - User clicks on store option in menu
+2021-09-23 17:55:27.638 [main][94298] INFO  step_definitions.AppleStoreSteps - User is at the retail page
+2021-09-23 17:55:44.192 [main][110852] INFO  step_definitions.AppleStoreSteps - User clicks on Mac option to navigate to Mac page
+2021-09-23 17:55:44.192 [main][110852] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:55:46.838 [main][113498] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:55:51.746 [main][118406] INFO  step_definitions.IphoneSteps - User is at Apple.com home page
+2021-09-23 17:56:03.893 [main][130553] INFO  step_definitions.IphoneSteps - User clicks on Iphone option in menu bar
+2021-09-23 17:56:06.463 [main][133123] INFO  step_definitions.IphoneSteps - User clicks on shop iphone option to view all available iphone to buy
+2021-09-23 17:56:06.472 [main][133132] INFO  step_definitions.IphoneSteps - User is able to view all available iphone models to buy
+2021-09-23 17:56:06.472 [main][133132] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:56:09.051 [main][135711] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:56:14.025 [main][140685] INFO  step_definitions.IpadSteps - User is at Apple.com home page
+2021-09-23 17:56:22.652 [main][149312] INFO  step_definitions.IpadSteps - User clicks on ipad option in menu bar
+2021-09-23 17:56:28.823 [main][155483] INFO  step_definitions.IpadSteps - User clicks on shop ipad option to navigate to ipad page
+2021-09-23 17:56:28.823 [main][155483] INFO  step_definitions.IpadSteps - User navigates to ipad page to view all available ipad models to buy
+2021-09-23 17:56:28.823 [main][155483] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:56:31.416 [main][158076] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:56:36.515 [main][163175] INFO  step_definitions.AppleWatchSteps - User is at Apple.com home page
+2021-09-23 17:56:48.438 [main][175098] INFO  step_definitions.AppleWatchSteps - User clicks on watch option
+2021-09-23 17:56:50.662 [main][177322] INFO  step_definitions.AppleWatchSteps - User clicks on shop watch option to navigate to the apple watch page
+2021-09-23 17:56:50.662 [main][177322] INFO  step_definitions.AppleWatchSteps - User lands on the apple watch page to view all apple watch models available to buy
+2021-09-23 17:56:50.662 [main][177322] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:56:53.309 [main][179969] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:56:58.158 [main][184818] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-23 17:57:06.827 [main][193487] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-23 17:57:07.437 [main][194097] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-23 17:57:07.437 [main][194097] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-23 17:57:07.437 [main][194097] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:57:10.081 [main][196741] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:57:14.948 [main][201608] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-23 17:57:24.306 [main][210966] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-23 17:57:24.831 [main][211491] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-23 17:57:24.831 [main][211491] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-23 17:57:24.831 [main][211491] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:57:27.457 [main][214117] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:57:32.544 [main][219204] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-23 17:57:42.447 [main][229107] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-23 17:57:43.078 [main][229738] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-23 17:57:43.078 [main][229738] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-23 17:57:43.078 [main][229738] INFO  step_definitions.Hooks - Close Chrome Browser
+2021-09-23 17:57:45.685 [main][232345] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 17:57:51.078 [main][237738] INFO  step_definitions.MultipleLoginSteps - User is on the Apple Home page 
+2021-09-23 17:57:59.213 [main][245873] INFO  step_definitions.MultipleLoginSteps - User navigates to Apple sign in page
+2021-09-23 17:58:02.777 [main][249437] INFO  step_definitions.MultipleLoginSteps - User clicks on sign in upon entering user name and password
+2021-09-23 17:58:02.778 [main][249438] INFO  step_definitions.MultipleLoginSteps - User signs in to apple account
+2021-09-23 17:58:02.779 [main][249439] INFO  step_definitions.Hooks - Close Chrome Browser

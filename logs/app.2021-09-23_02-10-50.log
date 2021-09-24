@@ -1,0 +1,15 @@
+2021-09-23 02:10:53.540 [main][3834] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 02:10:58.452 [main][8746] INFO  step_definitions.Iphone13Steps - User lands on the Apple home page
+2021-09-23 02:11:08.103 [main][18397] INFO  step_definitions.Iphone13Steps - User clicks on bags link then sign in link to navigate to sign in page
+2021-09-23 02:11:11.673 [main][21967] INFO  step_definitions.Iphone13Steps - User clicks on sign in button upon entering the valid credentials
+2021-09-23 02:11:14.545 [main][24839] INFO  step_definitions.Iphone13Steps - User clicks on bags link to sign out from the account
+2021-09-23 02:11:29.644 [main][39938] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@data-focus-method='mouse'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-focus-method='mouse']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NIBIRSPC', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Nibir54\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84d8c85171ec4746fbae24caeb686b64
+*** Element info: {Using=xpath, value=//a[@data-focus-method='mouse']}
+2021-09-23 02:11:29.652 [main][39946] INFO  step_definitions.Hooks - Close Chrome Browser

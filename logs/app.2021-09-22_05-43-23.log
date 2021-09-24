@@ -1,0 +1,6 @@
+2021-09-22 17:43:26.258 [main][4108] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-22 17:43:31.145 [main][8995] INFO  step_definitions.AppleStoreSteps - User is is Apple.com home page
+2021-09-22 17:43:41.571 [main][19421] INFO  step_definitions.AppleStoreSteps - User clicks on store menu to find nearby stores
+2021-09-22 17:43:41.571 [main][19421] INFO  step_definitions.AppleStoreSteps - User is at the retail page
+2021-09-22 17:43:54.048 [main][31898] INFO  step_definitions.AppleStoreSteps - User clicks on Mac option to navigate to Mac page
+2021-09-22 17:43:54.048 [main][31898] INFO  step_definitions.Hooks - Close Chrome Browser

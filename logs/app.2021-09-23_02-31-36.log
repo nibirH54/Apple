@@ -1,0 +1,7 @@
+2021-09-23 02:31:38.957 [main][3784] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 02:31:44.127 [main][8954] INFO  step_definitions.Iphone13Steps - User lands on the Apple home page
+2021-09-23 02:31:53.968 [main][18795] INFO  step_definitions.Iphone13Steps - User clicks on bags link then sign in link to navigate to sign in page
+2021-09-23 02:31:54.483 [main][19310] INFO  step_definitions.Iphone13Steps - User clicks on sign in button upon entering the valid credentials
+2021-09-23 02:32:02.171 [main][26998] INFO  step_definitions.Iphone13Steps - User clicks on current page to land on new iphone 13 feature page
+2021-09-23 02:32:02.171 [main][26998] INFO  step_definitions.Iphone13Steps - User is on the new iphone 13 feature page
+2021-09-23 02:32:02.171 [main][26998] INFO  step_definitions.Hooks - Close Chrome Browser
