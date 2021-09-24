@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="264.373" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="267.499" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nibir54\AppData\Local\Temp\surefire2799801979208033747\surefirebooter6784743610204368978.jar C:\Users\Nibir54\AppData\Local\Temp\surefire2799801979208033747 2021-09-24T00-49-19_039-jvmRun1 surefire16820143791202141885tmp surefire_05213943147608375667tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nibir54\AppData\Local\Temp\surefire3759743526784665386\surefirebooter17858607051697393873.jar C:\Users\Nibir54\AppData\Local\Temp\surefire3759743526784665386 2021-09-24T02-41-09_720-jvmRun1 surefire2606703211772581940tmp surefire_01595775923905012550tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Nibir54\IdeaProjects\new-repo\target\test-classes;C:\Users\Nibir54\IdeaProjects\new-repo\target\classes;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nibir54\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nibir54\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nibir54\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nibir54\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nibir54\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nibir54\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nibir54\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nibir54\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nibir54\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nibir54\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nibir54\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Nibir54\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Nibir54\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\Nibir54\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Nibir54\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Nibir54\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Nibir54\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Nibir54\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Nibir54\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\Nibir54\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Nibir54\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Nibir54\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Nibir54\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Nibir54\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Nibir54\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Nibir54\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Nibir54\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Nibir54\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Nibir54\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Nibir54\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Nibir54\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Nibir54\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Nibir54\.m2\repository\net\masterthought\cucumber-reporting\5.6.0\cucumber-reporting-5.6.0.jar;C:\Users\Nibir54\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Nibir54\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Nibir54\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Nibir54\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Nibir54\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Nibir54\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Nibir54\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\Nibir54\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Nibir54\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\Nibir54\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Nibir54\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Nibir54\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nibir54\AppData\Local\Temp\surefire2799801979208033747\surefirebooter6784743610204368978.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nibir54\AppData\Local\Temp\surefire3759743526784665386\surefirebooter17858607051697393873.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
@@ -61,274 +61,274 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Check new iphone 13 features" classname="Check new apple iphone 13 features from apple account" time="31.628">
+  <testcase name="Check new iphone 13 features" classname="Check new apple iphone 13 features from apple account" time="33.774">
     <system-out><![CDATA[
 Scenario: Check new iphone 13 features                            &amp#27;[90m# src/test/resources/Features/iphone13.feature:2&amp#27;[0m
-00:49:35.439 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:49:40.607 [main] INFO  step_definitions.Iphone13Steps -  User lands on the Apple home page
+02:41:20.401 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:41:25.141 [main] INFO  step_definitions.Iphone13Steps -  User lands on the Apple home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user enters on apple website&amp#27;[0m                            &amp#27;[90m# step_definitions.Iphone13Steps.userEntersAppleWebsite()&amp#27;[0m
-00:49:50.618 [main] INFO  step_definitions.Iphone13Steps -  User clicks on bags link then sign in link to navigate to sign in page
+02:41:34.863 [main] INFO  step_definitions.Iphone13Steps -  User clicks on bags link then sign in link to navigate to sign in page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on the bags link to sign in&amp#27;[0m                    &amp#27;[90m# step_definitions.Iphone13Steps.clicksOnBagsLink()&amp#27;[0m
-00:49:51.534 [main] INFO  step_definitions.Iphone13Steps -  User clicks on sign in button upon entering the valid credentials
+02:41:40.926 [main] INFO  step_definitions.Iphone13Steps -  User clicks on sign in button upon entering the valid credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering the valid credentials&amp#27;[0m &amp#27;[90m# step_definitions.Iphone13Steps.clickOnSignIn()&amp#27;[0m
-00:50:00.213 [main] INFO  step_definitions.Iphone13Steps -  User clicks on current page to land on new iphone 13 feature page
+02:41:46.346 [main] INFO  step_definitions.Iphone13Steps -  User clicks on current page to land on new iphone 13 feature page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on the page they are in&amp#27;[0m                        &amp#27;[90m# step_definitions.Iphone13Steps.clickOnCurrentPage()&amp#27;[0m
-00:50:00.213 [main] INFO  step_definitions.Iphone13Steps -  User is on the new iphone 13 feature page
+02:41:46.346 [main] INFO  step_definitions.Iphone13Steps -  User is on the new iphone 13 feature page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser lands on new iphone 13 feature page&amp#27;[0m                    &amp#27;[90m# step_definitions.Iphone13Steps.clickOnSignOut()&amp#27;[0m
-00:50:00.217 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:41:46.346 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 8877
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 16035
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:49:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:41:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid credentials for single user" classname="Test login functionalities for Apple" time="21.705">
+  <testcase name="Check login is successful with valid credentials for single user" classname="Test login functionalities for Apple" time="18.82">
     <system-out><![CDATA[
 @positive_test
 Scenario: Check login is successful with valid credentials for single user &amp#27;[90m# src/test/resources/Features/login.feature:4&amp#27;[0m
-00:50:05.990 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:50:11.670 [main] INFO  step_definitions.LoginSteps -  User is on apple home page
+02:41:49.681 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:41:54.919 [main] INFO  step_definitions.LoginSteps -  User is on apple home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the apple home page&amp#27;[0m                                   &amp#27;[90m# step_definitions.LoginSteps.navigateToAppleHomePage()&amp#27;[0m
-00:50:21.508 [main] INFO  step_definitions.LoginSteps -  User navigates to apple sign in page
+02:42:04.761 [main] INFO  step_definitions.LoginSteps -  User navigates to apple sign in page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to apple sign in page&amp#27;[0m                                  &amp#27;[90m# step_definitions.LoginSteps.navigateToSignInPage()&amp#27;[0m
-00:50:21.954 [main] INFO  step_definitions.LoginSteps -  User clicks on sign in after entering userid and password
+02:42:05.201 [main] INFO  step_definitions.LoginSteps -  User clicks on sign in after entering userid and password
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering the data&amp#27;[0m                       &amp#27;[90m# step_definitions.LoginSteps.clicksSignInButtonUponEnteringTheData(io.cucumber.datatable.DataTable)&amp#27;[0m
-00:50:22.097 [main] INFO  step_definitions.LoginSteps -  User logs into apple account
+02:42:05.315 [main] INFO  step_definitions.LoginSteps -  User logs into apple account
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logs into apple account&amp#27;[0m                                        &amp#27;[90m# step_definitions.LoginSteps.navigateToAppleAccount()&amp#27;[0m
-00:50:22.097 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:42:05.315 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 15674
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 39097
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:50:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:41:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with invalid credentials" classname="Test login functionalities for Apple" time="20.221">
+  <testcase name="Check login is successful with invalid credentials" classname="Test login functionalities for Apple" time="21.618">
     <system-out><![CDATA[
 @negative_test
 Scenario: Check login is successful with invalid credentials &amp#27;[90m# src/test/resources/Features/login.feature:16&amp#27;[0m
-00:50:26.495 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:50:31.871 [main] INFO  step_definitions.LoginSteps -  User is on apple home page
+02:42:07.967 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:42:12.763 [main] INFO  step_definitions.LoginSteps -  User is on apple home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the apple home page&amp#27;[0m                     &amp#27;[90m# step_definitions.LoginSteps.navigateToAppleHomePage()&amp#27;[0m
-00:50:41.870 [main] INFO  step_definitions.LoginSteps -  User navigates to apple sign in page
+02:42:22.445 [main] INFO  step_definitions.LoginSteps -  User navigates to apple sign in page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to apple sign in page&amp#27;[0m                    &amp#27;[90m# step_definitions.LoginSteps.navigateToSignInPage()&amp#27;[0m
-00:50:42.353 [main] INFO  step_definitions.LoginSteps -  User clicks on sign in after entering userid and password
+02:42:26.907 [main] INFO  step_definitions.LoginSteps -  User clicks on sign in after entering userid and password
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering the data&amp#27;[0m         &amp#27;[90m# step_definitions.LoginSteps.clicksSignInButtonUponEnteringTheData(io.cucumber.datatable.DataTable)&amp#27;[0m
-00:50:42.353 [main] INFO  step_definitions.LoginSteps -  User is failed to log in for using invalid credentials
+02:42:26.915 [main] INFO  step_definitions.LoginSteps -  User is failed to log in for using invalid credentials
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login&amp#27;[0m                               &amp#27;[90m# step_definitions.LoginSteps.validateUserIsFailedToLogin()&amp#27;[0m
-00:50:42.353 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:42:26.915 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 26222
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 32463
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:50:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:42:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check search option for a specific product" classname="Test search functionality in Apple home page" time="7.828">
+  <testcase name="Check search option for a specific product" classname="Test search functionality in Apple home page" time="7.719">
     <system-out><![CDATA[
 Scenario: Check search option for a specific product &amp#27;[90m# src/test/resources/Features/macbookpro.feature:2&amp#27;[0m
-00:50:44.942 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:50:49.951 [main] INFO  step_definitions.MacbookProSteps -  User navigates to the apple home page
+02:42:29.586 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:42:34.403 [main] INFO  step_definitions.MacbookProSteps -  User navigates to the apple home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user navigate to the apple home page&amp#27;[0m       &amp#27;[90m# step_definitions.MacbookProSteps.userNavigateToAppleHomePage()&amp#27;[0m
-00:50:50.048 [main] INFO  step_definitions.MacbookProSteps -  User clicks search button
+02:42:34.530 [main] INFO  step_definitions.MacbookProSteps -  User clicks search button
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                  &amp#27;[90m# step_definitions.MacbookProSteps.userClicksOnSearchButton()&amp#27;[0m
-00:50:50.196 [main] INFO  step_definitions.MacbookProSteps -  User Types in search button
+02:42:34.688 [main] INFO  step_definitions.MacbookProSteps -  User Types in search button
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser types a specific product to search&amp#27;[0m       &amp#27;[90m# step_definitions.MacbookProSteps.userTypesToSearch()&amp#27;[0m
-00:50:50.196 [main] INFO  step_definitions.MacbookProSteps -  User lands on the Specific page he searched for
+02:42:34.688 [main] INFO  step_definitions.MacbookProSteps -  User lands on the Specific page he searched for
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser lands on that products page&amp#27;[0m              &amp#27;[90m# step_definitions.MacbookProSteps.userSearchResult()&amp#27;[0m
-00:50:50.196 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:42:34.688 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 40009
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 3455
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:50:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:42:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check functionality to navigate to the mac page" classname="Test search functionality in Apple home page" time="30.176">
+  <testcase name="Check functionality to navigate to the mac page" classname="Test search functionality in Apple home page" time="26.652">
     <system-out><![CDATA[
 Scenario: Check functionality to navigate to the mac page   &amp#27;[90m# src/test/resources/Features/macbookpro.feature:8&amp#27;[0m
-00:50:52.769 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:50:57.971 [main] INFO  step_definitions.AppleStoreSteps -  User is on Apple.com home page
+02:42:37.273 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:42:42.448 [main] INFO  step_definitions.AppleStoreSteps -  User is on Apple.com home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is at apple page&amp#27;[0m                             &amp#27;[90m# step_definitions.AppleStoreSteps.userLandsAtApplePage()&amp#27;[0m
-00:51:07.981 [main] INFO  step_definitions.AppleStoreSteps -  User clicks on store option in menu
+02:42:52.518 [main] INFO  step_definitions.AppleStoreSteps -  User clicks on store option in menu
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on store option in menu&amp#27;[0m                  &amp#27;[90m# step_definitions.AppleStoreSteps.clickOnStoreOption()&amp#27;[0m
-00:51:07.981 [main] INFO  step_definitions.AppleStoreSteps -  User is at the retail page
+02:42:52.518 [main] INFO  step_definitions.AppleStoreSteps -  User is at the retail page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser lands on retail page&amp#27;[0m                            &amp#27;[90m# step_definitions.AppleStoreSteps.landsOnRetailPage()&amp#27;[0m
-00:51:20.349 [main] INFO  step_definitions.AppleStoreSteps -  User clicks on Mac option to navigate to Mac page
+02:43:01.335 [main] INFO  step_definitions.AppleStoreSteps -  User clicks on Mac option to navigate to Mac page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Mac option to navigate to the mac page&amp#27;[0m &amp#27;[90m# step_definitions.AppleStoreSteps.clickOnFindNewDeals()&amp#27;[0m
-00:51:20.349 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:43:01.335 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 3266
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 42310
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:50:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:42:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check functionality to navigate to the shop iphone page" classname="Test search functionality in Apple home page" time="30.768">
+  <testcase name="Check functionality to navigate to the shop iphone page" classname="Test search functionality in Apple home page" time="31.071">
     <system-out><![CDATA[
 Scenario: Check functionality to navigate to the shop iphone page &amp#27;[90m# src/test/resources/Features/macbookpro.feature:14&amp#27;[0m
-00:51:23.030 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:51:28.425 [main] INFO  step_definitions.IphoneSteps -  User is at Apple.com home page
+02:43:03.957 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:43:08.936 [main] INFO  step_definitions.IphoneSteps -  User is at Apple.com home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user browses to the apple home page&amp#27;[0m                     &amp#27;[90m# step_definitions.IphoneSteps.browseToAppleHomepage()&amp#27;[0m
-00:51:40.469 [main] INFO  step_definitions.IphoneSteps -  User clicks on Iphone option in menu bar
+02:43:17.559 [main] INFO  step_definitions.IphoneSteps -  User clicks on Iphone option in menu bar
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on iphone option in the menu bar&amp#27;[0m               &amp#27;[90m# step_definitions.IphoneSteps.clickOnIphoneOption()&amp#27;[0m
-00:51:51.129 [main] INFO  step_definitions.IphoneSteps -  User clicks on shop iphone option to view all available iphone to buy
+02:43:32.390 [main] INFO  step_definitions.IphoneSteps -  User clicks on shop iphone option to view all available iphone to buy
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on shop iphone option&amp#27;[0m                           &amp#27;[90m# step_definitions.IphoneSteps.clickOnShopIphoneOption()&amp#27;[0m
-00:51:51.129 [main] INFO  step_definitions.IphoneSteps -  User is able to view all available iphone models to buy
+02:43:32.390 [main] INFO  step_definitions.IphoneSteps -  User is able to view all available iphone models to buy
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is able to view all available iphone to buy&amp#27;[0m           &amp#27;[90m# step_definitions.IphoneSteps.navigateToIphonePage()&amp#27;[0m
-00:51:51.129 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:43:32.390 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 6787
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 6533
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:51:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:43:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check functionality to navigate to the shop ipad page" classname="Test search functionality in Apple home page" time="22.761">
+  <testcase name="Check functionality to navigate to the shop ipad page" classname="Test search functionality in Apple home page" time="22.564">
     <system-out><![CDATA[
 Scenario: Check functionality to navigate to the shop ipad page &amp#27;[90m# src/test/resources/Features/macbookpro.feature:20&amp#27;[0m
-00:51:53.716 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:51:58.753 [main] INFO  step_definitions.IpadSteps -  User is at Apple.com home page
+02:43:35.079 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:43:39.881 [main] INFO  step_definitions.IpadSteps -  User is at Apple.com home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user goes to the apple home page&amp#27;[0m                      &amp#27;[90m# step_definitions.IpadSteps.userGoesToAppleHomePage()&amp#27;[0m
-00:52:07.353 [main] INFO  step_definitions.IpadSteps -  User clicks on ipad option in menu bar
+02:43:49.600 [main] INFO  step_definitions.IpadSteps -  User clicks on ipad option in menu bar
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on ipad option in the menu bar&amp#27;[0m               &amp#27;[90m# step_definitions.IpadSteps.clickOnIpadOption()&amp#27;[0m
-00:52:13.866 [main] INFO  step_definitions.IpadSteps -  User clicks on shop ipad option to navigate to ipad page
+02:43:54.953 [main] INFO  step_definitions.IpadSteps -  User clicks on shop ipad option to navigate to ipad page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on shop ipad option&amp#27;[0m                           &amp#27;[90m# step_definitions.IpadSteps.clickOnShopIpad()&amp#27;[0m
-00:52:13.866 [main] INFO  step_definitions.IpadSteps -  User navigates to ipad page to view all available ipad models to buy
+02:43:54.953 [main] INFO  step_definitions.IpadSteps -  User navigates to ipad page to view all available ipad models to buy
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is able to view all available ipad to buy&amp#27;[0m           &amp#27;[90m# step_definitions.IpadSteps.navigateToIpadPage()&amp#27;[0m
-00:52:13.866 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:43:54.953 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 15075
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 2566
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:51:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:43:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check functionality to navigate to the shop apple watch page" classname="Test search functionality in Apple home page" time="22.324">
+  <testcase name="Check functionality to navigate to the shop apple watch page" classname="Test search functionality in Apple home page" time="22.573">
     <system-out><![CDATA[
 Scenario: Check functionality to navigate to the shop apple watch page &amp#27;[90m# src/test/resources/Features/macbookpro.feature:26&amp#27;[0m
-00:52:16.604 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:52:21.412 [main] INFO  step_definitions.AppleWatchSteps -  User is at Apple.com home page
+02:43:57.549 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:44:02.634 [main] INFO  step_definitions.AppleWatchSteps -  User is at Apple.com home page
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user lands on the apple home page&amp#27;[0m                            &amp#27;[90m# step_definitions.AppleWatchSteps.userLandsOnAppleHomePage()&amp#27;[0m
-00:52:33.459 [main] INFO  step_definitions.AppleWatchSteps -  User clicks on watch option
+02:44:15.177 [main] INFO  step_definitions.AppleWatchSteps -  User clicks on watch option
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on watch option in the menu bar&amp#27;[0m                     &amp#27;[90m# step_definitions.AppleWatchSteps.clickOnWatch()&amp#27;[0m
-00:52:36.211 [main] INFO  step_definitions.AppleWatchSteps -  User clicks on shop watch option to navigate to the apple watch page
+02:44:17.530 [main] INFO  step_definitions.AppleWatchSteps -  User clicks on shop watch option to navigate to the apple watch page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on shop watch option&amp#27;[0m                                 &amp#27;[90m# step_definitions.AppleWatchSteps.clickOnShopWatch()&amp#27;[0m
-00:52:36.211 [main] INFO  step_definitions.AppleWatchSteps -  User lands on the apple watch page to view all apple watch models available to buy
+02:44:17.530 [main] INFO  step_definitions.AppleWatchSteps -  User lands on the apple watch page to view all apple watch models available to buy
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is able to view all available apple watch to buy&amp#27;[0m           &amp#27;[90m# step_definitions.AppleWatchSteps.navigateToAppleWatchPage()&amp#27;[0m
-00:52:36.211 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:44:17.530 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 29848
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 36322
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:52:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:43:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid userid and password" classname="Test login for Apple website" time="20.754">
+  <testcase name="Check login is successful with valid userid and password" classname="Test login for Apple website" time="21.879">
     <system-out><![CDATA[
 Scenario: Check login is successful with valid userid and password                                    &amp#27;[90m# src/test/resources/Features/multiplelogin.feature:2&amp#27;[0m
-00:52:38.882 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:52:43.804 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
+02:44:20.142 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:44:25.293 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user browses to the apple page&amp#27;[0m                                                              &amp#27;[90m# step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()&amp#27;[0m
-00:52:53.431 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
+02:44:34.994 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser lands to apple sign in page&amp#27;[0m                                                                &amp#27;[90m# step_definitions.MultipleLoginSteps.landToSignInPage()&amp#27;[0m
-00:52:56.963 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
+02:44:39.397 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering userid "&amp#27;[0m&amp#27;[32m&amp#27;[1mnibirh54@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mAppletest12345&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)&amp#27;[0m
-00:52:56.963 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
+02:44:39.397 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser signs in to the apple account&amp#27;[0m                                                             &amp#27;[90m# step_definitions.MultipleLoginSteps.loginToAppleAccount()&amp#27;[0m
-00:52:56.963 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:44:39.397 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 12566
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 41693
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:52:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:44:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid userid and password for multiple users #1" classname="Test login for Apple website" time="19.766">
+  <testcase name="Check login is successful with valid userid and password for multiple users #1" classname="Test login for Apple website" time="17.556">
     <system-out><![CDATA[
 Scenario Outline: Check login is successful with valid userid and password for multiple users         &amp#27;[90m# src/test/resources/Features/multiplelogin.feature:16&amp#27;[0m
-00:52:59.563 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:53:04.355 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
+02:44:42.059 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:44:46.877 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user browses to the apple page&amp#27;[0m                                                              &amp#27;[90m# step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()&amp#27;[0m
-00:53:13.098 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
+02:44:56.262 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser lands to apple sign in page&amp#27;[0m                                                                &amp#27;[90m# step_definitions.MultipleLoginSteps.landToSignInPage()&amp#27;[0m
-00:53:16.730 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
+02:44:56.973 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering userid "&amp#27;[0m&amp#27;[32m&amp#27;[1mNibirh54@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mAppletest12345&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)&amp#27;[0m
-00:53:16.730 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
+02:44:56.973 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser signs in to the apple account&amp#27;[0m                                                             &amp#27;[90m# step_definitions.MultipleLoginSteps.loginToAppleAccount()&amp#27;[0m
-00:53:16.730 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:44:56.973 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 7461
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 40645
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:52:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:44:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid userid and password for multiple users #2" classname="Test login for Apple website" time="18.075">
+  <testcase name="Check login is successful with valid userid and password for multiple users #2" classname="Test login for Apple website" time="17.503">
     <system-out><![CDATA[
 Scenario Outline: Check login is successful with valid userid and password for multiple users         &amp#27;[90m# src/test/resources/Features/multiplelogin.feature:17&amp#27;[0m
-00:53:19.337 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:53:24.320 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
+02:44:59.610 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:45:04.962 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user browses to the apple page&amp#27;[0m                                                              &amp#27;[90m# step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()&amp#27;[0m
-00:53:34.162 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
+02:45:13.922 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser lands to apple sign in page&amp#27;[0m                                                                &amp#27;[90m# step_definitions.MultipleLoginSteps.landToSignInPage()&amp#27;[0m
-00:53:34.803 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
+02:45:14.474 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering userid "&amp#27;[0m&amp#27;[32m&amp#27;[1mNibirh91@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mAppletest54321&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)&amp#27;[0m
-00:53:34.804 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
+02:45:14.474 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser signs in to the apple account&amp#27;[0m                                                             &amp#27;[90m# step_definitions.MultipleLoginSteps.loginToAppleAccount()&amp#27;[0m
-00:53:34.804 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:45:14.474 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 33376
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 4773
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:53:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:44:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid userid and password for multiple users #3" classname="Test login for Apple website" time="18.243">
+  <testcase name="Check login is successful with valid userid and password for multiple users #3" classname="Test login for Apple website" time="21.738">
     <system-out><![CDATA[
 Scenario Outline: Check login is successful with valid userid and password for multiple users           &amp#27;[90m# src/test/resources/Features/multiplelogin.feature:18&amp#27;[0m
-00:53:37.492 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
-00:53:42.644 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
+02:45:17.071 [main] INFO  step_definitions.Hooks -  Launch Chrome Browser
+02:45:21.873 [main] INFO  step_definitions.MultipleLoginSteps -  User is on the Apple Home page 
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user browses to the apple page&amp#27;[0m                                                                &amp#27;[90m# step_definitions.MultipleLoginSteps.userGoesToToAppleHomePage()&amp#27;[0m
-00:53:52.484 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
+02:45:31.579 [main] INFO  step_definitions.MultipleLoginSteps -  User navigates to Apple sign in page
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser lands to apple sign in page&amp#27;[0m                                                                  &amp#27;[90m# step_definitions.MultipleLoginSteps.landToSignInPage()&amp#27;[0m
-00:53:53.007 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
+02:45:36.223 [main] INFO  step_definitions.MultipleLoginSteps -  User clicks on sign in upon entering user name and password
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on sign in upon entering userid "&amp#27;[0m&amp#27;[32m&amp#27;[1mNibirwasif@yahoo.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mAppletest12345&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.MultipleLoginSteps.clickSignIn(java.lang.String,java.lang.String)&amp#27;[0m
-00:53:53.007 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
+02:45:36.223 [main] INFO  step_definitions.MultipleLoginSteps -  User signs in to apple account
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser signs in to the apple account&amp#27;[0m                                                               &amp#27;[90m# step_definitions.MultipleLoginSteps.loginToAppleAccount()&amp#27;[0m
-00:53:53.007 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
+02:45:36.223 [main] INFO  step_definitions.Hooks -  Close Chrome Browser
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 49123
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 24090
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 24, 2021 12:53:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2021 2:45:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
